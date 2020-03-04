@@ -40,7 +40,7 @@ class BSTContainer:
         self.inOrderTrav(rtNode.leftNode)
         self.inOrderTrav(rtNode.rightNode)
 
-    def preOrderTrav(self, rtNode):
+    def postOrderTrav(self, rtNode):
 
         if rtNode == None:
             return
